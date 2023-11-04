@@ -25,12 +25,14 @@ viz::Viz3d myWindow("Coordinate Frame");
 Eigen::Vector3d rpy_raw = Eigen::Vector3d(0,0,0);
 int r=0,p=0,y=0;
 int a=1,b=1,c=1;
+
 CALL_BACK_TRACKBAR(r)
 CALL_BACK_TRACKBAR(p)
 CALL_BACK_TRACKBAR(y)
 CALL_BACK_TRACKBAR(a)
 CALL_BACK_TRACKBAR(b)
 CALL_BACK_TRACKBAR(c)
+
 int main(int argc, char **argv) {
     namedWindow("video", WINDOW_NORMAL);
     imshow("video",Mat(Scalar(1,1)));

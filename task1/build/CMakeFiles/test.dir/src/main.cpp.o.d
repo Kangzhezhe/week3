@@ -1,4 +1,5 @@
-CMakeFiles/test.dir/src/main.cpp.o: /home/kangzhehao/test/src/main.cpp \
+CMakeFiles/test.dir/src/main.cpp.o: \
+ /home/kangzhehao/practice/week3/task1/src/main.cpp \
  /usr/include/stdc-predef.h /usr/include/c++/11/iostream \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \
